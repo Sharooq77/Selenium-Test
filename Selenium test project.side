@@ -1,0 +1,79 @@
+{
+  "id": "c4acda40-c0d3-4924-820c-5a0822b4484a",
+  "version": "2.0",
+  "name": "Selenium test project",
+  "url": "https://qentinelqi.github.io/shop/",
+  "tests": [{
+    "id": "24ba99aa-00dd-405f-b1fc-96e1cb6bb8c0",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "48c420ea-33ec-4730-a73f-d61b59b0297a",
+    "name": "selenium Test Demo for CRT",
+    "commands": [{
+      "id": "c365d91f-3aae-46cf-b932-f8d0beb11fd8",
+      "comment": "",
+      "command": "open",
+      "target": "https://qentinelqi.github.io/shop/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edb1086d-861e-4146-96e5-1c23aba997ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a168eee-8866-4fa5-aa3b-a5045fec6883",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bumble the Elephant",
+      "targets": [
+        ["linkText=Bumble the Elephant", "linkText"],
+        ["css=li:nth-child(2) > .product-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bumble the Elephant')]", "xpath:link"],
+        ["xpath=//div[@id='products']/section/div/ul/li[2]/div[2]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop/products/elephant/')])[3]", "xpath:href"],
+        ["xpath=//li[2]/div[2]/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bumble the Elephant')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce10800-fa1b-4842-90f7-b43a33666f51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bef456c6-28d9-4260-a60b-7b94bc8d3feb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button",
+      "targets": [
+        ["css=.snipcart-cart-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='snipcart']/div/div/div/section/div/div[2]/footer/button", "xpath:idRelative"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "203e7341-fd65-4daa-b42f-87c5d7203ac1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24ba99aa-00dd-405f-b1fc-96e1cb6bb8c0"]
+  }],
+  "urls": ["https://qentinelqi.github.io/shop/"],
+  "plugins": []
+}
