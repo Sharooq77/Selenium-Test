@@ -1,0 +1,341 @@
+{
+  "id": "44394fbf-0e6d-4a1a-84b1-17d50e974663",
+  "version": "2.0",
+  "name": "gavi",
+  "url": "https://test.salesforce.com",
+  "tests": [{
+    "id": "c3dd8daf-6936-4369-bcab-bd5c8a8a629f",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "246ef98f-98ba-446a-801e-2271151292d2",
+    "name": "C19",
+    "commands": [{
+      "id": "cae3813a-ff36-4b75-bdca-104a831650e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74f9efeb-1c75-4194-924e-bc73b3e62c36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "786x614",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "082be067-8f34-4ea1-a25d-c41b6a6335c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a92fb0-c335-431a-82aa-90041486d809",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "mounika.t@cloudfulcrum.com.uat"
+    }, {
+      "id": "86f04841-d867-42ef-aded-17e24fdc17a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "GAVI@1234"
+    }, {
+      "id": "4e368c3d-c4ba-428c-9ae2-d6b2d721e3d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "GAVI@1234"
+    }, {
+      "id": "cad0a49b-b27f-49e2-87a3-cbcf91a7c3cf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "75825ae4-b0d9-4a23-a0c6-b9d257fa2a79",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-tabs--default__item:nth-child(4) > .tabHeader > .slds-show_inline-block",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(4) > .tabHeader > .slds-show_inline-block", "css:finder"],
+        ["xpath=//div[@id='382:0']/div/div/div/div/ul[2]/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/ul[2]/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb403b1c-c2c6-4e80-b1ae-4685d34b5084",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-tabs--default__item:nth-child(4) > .tabHeader > .slds-show_inline-block",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(4) > .tabHeader > .slds-show_inline-block", "css:finder"],
+        ["xpath=//div[@id='382:0']/div/div/div/div/ul[2]/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/ul[2]/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de6c6690-f68b-4ea9-9979-db97229cbf45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-has-focus .title",
+      "targets": [
+        ["css=.slds-has-focus .title", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Tatooine | Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa5ec20-eb49-44fb-989a-f39fe1e04b1d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-is-active > .tabHeader",
+      "targets": [
+        ["css=.slds-is-active > .tabHeader", "css:finder"],
+        ["xpath=//a[contains(@href, '/lightning/r/Account/001b000003IjkQqAAJ/view')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac6db983-9ea8-46a9-99e0-5fa9f509ba42",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-is-active > .tabHeader",
+      "targets": [
+        ["css=.slds-is-active > .tabHeader", "css:finder"],
+        ["xpath=//a[contains(@href, '/lightning/r/Account/001b000003IjkQqAAJ/view')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5237aa6a-a422-43d2-bc5b-09970fe010b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-active:nth-child(4) > .tabHeader",
+      "targets": [
+        ["css=.slds-active:nth-child(4) > .tabHeader", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lightning/r/C19_Dose_Request__c/a0R0900002MSAKrEAP/view?ws=%2Flightning%2Fr%2FAccount%2F001b000003IjkQqAAJ%2Fview&0.source=alohaHeader')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ddfb1a-147f-4819-9b00-37f40900d06a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-active:nth-child(4) > .tabHeader",
+      "targets": [
+        ["css=.slds-active:nth-child(4) > .tabHeader", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lightning/r/C19_Dose_Request__c/a0R0900002MSAKrEAP/view?ws=%2Flightning%2Fr%2FAccount%2F001b000003IjkQqAAJ%2Fview&0.source=alohaHeader')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88269c03-bbde-490b-a09c-b5809058356e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-tabs--default__item:nth-child(5) > .tabHeader",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(5) > .tabHeader", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lightning/r/Contact/00369000032SPrHAAW/view?ws=%2Flightning%2Fr%2FAccount%2F001b000003IjkQqAAJ%2Fview')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4583e7b9-f644-4a85-965e-d43ff8efe059",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-tabs--default__item:nth-child(5) > .tabHeader",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(5) > .tabHeader", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lightning/r/Contact/00369000032SPrHAAW/view?ws=%2Flightning%2Fr%2FAccount%2F001b000003IjkQqAAJ%2Fview')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e84c4eb9-49b1-4ce1-b7bd-0b0a4ce20aa4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-has-focus .title",
+      "targets": [
+        ["css=.slds-has-focus .title", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[5]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[5]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Tatooine | Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab220c3-7e21-43d4-b43d-0f4cb988d511",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-tabs--default__item:nth-child(5) .title",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(5) .title", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[5]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[5]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Tatooine | Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb08221-422f-4140-b74c-ffa555f5ab20",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-tabs--default__item:nth-child(5) .title",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(5) .title", "css:finder"],
+        ["xpath=//div[@id='699:0']/div/div/div/div/ul[2]/li[5]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[5]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Tatooine | Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d2c313-c02d-4c18-83fd-a5c8bd5a8232",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Switch to Lightning Experience",
+      "targets": [
+        ["linkText=Switch to Lightning Experience", "linkText"],
+        ["css=.switch-to-lightning", "css:finder"],
+        ["xpath=//a[contains(text(),'Switch to Lightning Experience')]", "xpath:link"],
+        ["xpath=//table[@id='phHeader']/tbody/tr/td[3]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:sfdcPage.handleSwitchToLightningClick(%27LightningExperiencePreferred%27,true,%27/ltng/switcher?destination=lex-campaign%27);')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Switch to Lightning Experience')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff4f6c5a-398d-4de4-909c-94c14d3f1c7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-has-focus .title",
+      "targets": [
+        ["css=.slds-has-focus .title", "css:finder"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'India | Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35d6742-c4d0-4a15-9f68-11e6696bad91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=customTab__item",
+      "targets": [
+        ["id=customTab__item", "id"],
+        ["linkText=Vaccine Management", "linkText"],
+        ["css=.slds-tabs_default__item:nth-child(2) > #customTab__item", "css:finder"],
+        ["xpath=//a[contains(text(),'Vaccine Management')]", "xpath:link"],
+        ["xpath=//a[@id='customTab__item']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_15']/div/div/div/one-record-home-flexipage2/forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-c-o-v-a-x_-account_-record_-page___-account___-v-i-e-w/forcegenerated-flexipage_covax_account_record_page_account__view_js/record_flexipage-desktop-record-page-decorator/div/records-record-layout-event-broker/slot/slot/flexipage-record-home-template-desktop2/div/div[2]/div/slot/flexipage-component2/slot/flexipage-tabset2/div/lightning-tabset/div/lightning-tab-bar/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[8]", "xpath:href"],
+        ["xpath=//lightning-tab-bar/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vaccine Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1380b494-51d0-4004-9879-afbbe2ecebb8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=customTab__item",
+      "targets": [
+        ["id=customTab__item", "id"],
+        ["linkText=Vaccine Management", "linkText"],
+        ["css=.slds-tabs_default__item:nth-child(2) > #customTab__item", "css:finder"],
+        ["xpath=//a[contains(text(),'Vaccine Management')]", "xpath:link"],
+        ["xpath=//a[@id='customTab__item']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_15']/div/div/div/one-record-home-flexipage2/forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-c-o-v-a-x_-account_-record_-page___-account___-v-i-e-w/forcegenerated-flexipage_covax_account_record_page_account__view_js/record_flexipage-desktop-record-page-decorator/div/records-record-layout-event-broker/slot/slot/flexipage-record-home-template-desktop2/div/div[2]/div/slot/flexipage-component2/slot/flexipage-tabset2/div/lightning-tabset/div/lightning-tab-bar/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[8]", "xpath:href"],
+        ["xpath=//lightning-tab-bar/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vaccine Management')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b89cdd4e-1850-48ac-81db-335db4f6b401",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-has-focus .title",
+      "targets": [
+        ["css=.slds-has-focus .title", "css:finder"],
+        ["xpath=//div[@id='672:0']/div/div/div/div/ul[2]/li[4]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3290ee3a-f738-4d34-a0b3-6be0f1f81de8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-tabs--default__item:nth-child(4) .title",
+      "targets": [
+        ["css=.slds-tabs--default__item:nth-child(4) .title", "css:finder"],
+        ["xpath=//div[@id='672:0']/div/div/div/div/ul[2]/li[4]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a047272-3e74-44d2-aeec-becfa226d72b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-has-focus .title",
+      "targets": [
+        ["css=.slds-has-focus .title", "css:finder"],
+        ["xpath=//div[@id='672:0']/div/div/div/div/ul[2]/li[4]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/ul[2]/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "360e71a4-d2a1-41c2-a191-da678f3a2a36",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c3dd8daf-6936-4369-bcab-bd5c8a8a629f"]
+  }],
+  "urls": [],
+  "plugins": []
+}
